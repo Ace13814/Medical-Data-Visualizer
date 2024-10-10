@@ -4,4 +4,4 @@ Tools used: Python, Pandas, Matplotlib, Seaborn.
 Instructions: Run medical_data_visualizer.py in your Python environment to generate visualizations.
 Visuals: Images of the graphs will be included in the project.
 ![figure1](images/your_image.png)
-![figure2](images/your_image.png)
+![figure1](images/your_image.png)
