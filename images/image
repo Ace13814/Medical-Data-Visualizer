@@ -1,15 +1,1 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-# Load your dataset
-data = pd.read_csv('../data/medical_data.csv')
-
-# Example visualization
-plt.figure(figsize=(10, 6))
-sns.histplot(data['BMI'], bins=30, kde=True)
-plt.title('Distribution of BMI')
-plt.xlabel('BMI')
-plt.ylabel('Frequency')
-plt.savefig('../images/bmi_distribution.png')  # Save the plot
-plt.show()
